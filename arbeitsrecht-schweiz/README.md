@@ -1,6 +1,6 @@
 # arbeitsrecht-schweiz
 
-Arbeitsrechtliche Workflows fuer Schweizer Einzelarbeitsvertrag, Kuendigung, Lohn, Arbeitszeugnis und Streitbeilegung.
+Arbeitsrechtliche Workflows für Schweizer Einzelarbeitsvertrag, Kündigung, Lohn, Arbeitszeugnis und Streitbeilegung.
 
 ## Skill
 

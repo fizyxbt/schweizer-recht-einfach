@@ -1,19 +1,19 @@
 ---
 name: verwaltungsverfahren-schweiz
-description: Schweizer Verwaltungsverfahren fuer Verfuegung, Parteistellung, rechtliches Gehoer, Akteneinsicht, Einsprache, Beschwerde, VwVG, BGG, kantonales Verfahren and Fristen. Use for Swiss public-law procedure.
+description: Schweizer Verwaltungsverfahren für Verfügung, Parteistellung, rechtliches Gehör, Akteneinsicht, Einsprache, Beschwerde, VwVG, BGG, kantonales Verfahren und Fristen. Use for Swiss public-law procedure.
 ---
 
 # Verwaltungsverfahren Schweiz
 
-## Pruefprogramm
+## Prüfprogramm
 
-1. Behoerde, Kanton und Rechtsgebiet klaeren.
-2. Anfechtungsobjekt bestimmen: Verfuegung, Realakt, Erlass, Entscheid oder Saeumnis.
-3. Parteistellung, Beschwerdelegitimation und Zuständigkeit pruefen.
-4. Verfahrensrechte pruefen: rechtliches Gehoer, Akteneinsicht, Begruendung, Beweis.
-5. Rechtsmittelweg, Frist und Suspensiveffekt klaeren.
+1. Behörde, Kanton und Rechtsgebiet klären.
+2. Anfechtungsobjekt bestimmen: Verfügung, Realakt, Erlass, Entscheid oder Säumnis.
+3. Parteistellung, Beschwerdelegitimation und Zuständigkeit prüfen.
+4. Verfahrensrechte prüfen: rechtliches Gehör, Akteneinsicht, Begründung, Beweis.
+5. Rechtsmittelweg, Frist und Suspensiveffekt klären.
 6. Materielle Rügen und Verfahrensrügen trennen.
-7. Ergebnis als Fristenplan, Beschwerdeentwurf, Einspracheentwurf oder Pruefvermerk ausgeben.
+7. Ergebnis als Fristenplan, Beschwerdeentwurf, Einspracheentwurf oder Prüfvermerk ausgeben.
 
 ## Kontrollpunkte
 

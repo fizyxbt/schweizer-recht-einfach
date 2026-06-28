@@ -1,4 +1,4 @@
-# Quellen fuer Schweizer Recht
+# Quellen für Schweizer Recht
 
 ## Bundesrecht
 
@@ -17,6 +17,6 @@
 1. Normen mit Erlasskurztitel, SR-Nummer, Artikel, Absatz, Buchstabe und Rechtsstand zitieren.
 2. Mehrsprachige Fassungen kontrollieren, wenn Wortlaut, Systematik oder Begrifflichkeit streitig ist.
 3. Bundesgerichtliche Leitentscheide als BGE mit Band, Abteilung, Seite und Erwägung zitieren.
-4. Nicht amtlich publizierte Urteile mit Gericht, Abteilung, Geschaeftsnummer, Datum und Erwägung zitieren.
+4. Nicht amtlich publizierte Urteile mit Gericht, Abteilung, Geschäftsnummer, Datum und Erwägung zitieren.
 5. Kantonale Quellen nur mit Kanton, offizieller Sammlung, Erlassnummer oder Link und Rechtsstand verwenden.
 6. Private Datenbanken nicht als alleinige Quelle verwenden.

@@ -1,7 +1,7 @@
 {
   "name": "verwaltungsverfahren-schweiz",
   "version": "0.1.0",
-  "description": "Verwaltungsverfahren Schweiz: Verfuegung, rechtliches Gehoer, Einsprache, Beschwerde, VwVG, BGG und kantonale Verfahren.",
+  "description": "Verwaltungsverfahren Schweiz: Verfügung, rechtliches Gehör, Einsprache, Beschwerde, VwVG, BGG und kantonale Verfahren.",
   "license": "Apache-2.0 OR MIT",
   "author": {
     "name": "Schweizer Recht Einfach Maintainers"

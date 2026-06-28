@@ -1,7 +1,7 @@
 {
   "name": "zitierweise-schweizer-recht",
   "version": "0.1.0",
-  "description": "Zitierregeln fuer Schweizer Recht: SR, AS, BBl, BGE, Urteile des Bundesgerichts und kantonale Quellen mit Rechtsstand und Fundstelle.",
+  "description": "Zitierregeln für Schweizer Recht: SR, AS, BBl, BGE, Urteile des Bundesgerichts und kantonale Quellen mit Rechtsstand und Fundstelle.",
   "license": "Apache-2.0 OR MIT",
   "author": {
     "name": "Schweizer Recht Einfach Maintainers"

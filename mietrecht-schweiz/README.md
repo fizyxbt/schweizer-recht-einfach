@@ -1,6 +1,6 @@
 # mietrecht-schweiz
 
-Mietrechtliche Workflows fuer Wohn- und Geschaeftsraummiete in der Schweiz.
+Mietrechtliche Workflows für Wohn- und Geschäftsraummiete in der Schweiz.
 
 ## Skill
 

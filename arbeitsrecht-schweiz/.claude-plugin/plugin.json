@@ -1,7 +1,7 @@
 {
   "name": "arbeitsrecht-schweiz",
   "version": "0.1.0",
-  "description": "Arbeitsrecht Schweiz: Arbeitsvertrag, Kuendigung, Sperrfristen, Arbeitszeit, Lohn, Zeugnis, Gleichstellung und Streitbeilegung.",
+  "description": "Arbeitsrecht Schweiz: Arbeitsvertrag, Kündigung, Sperrfristen, Arbeitszeit, Lohn, Zeugnis, Gleichstellung und Streitbeilegung.",
   "license": "Apache-2.0 OR MIT",
   "author": {
     "name": "Schweizer Recht Einfach Maintainers"

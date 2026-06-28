@@ -1,6 +1,6 @@
 # gesellschaftsrecht-schweiz
 
-Gesellschaftsrechtliche Workflows fuer Schweizer AG, GmbH, Verein, Stiftung und Handelsregisterpraxis.
+Gesellschaftsrechtliche Workflows für Schweizer AG, GmbH, Verein, Stiftung und Handelsregisterpraxis.
 
 ## Skill
 

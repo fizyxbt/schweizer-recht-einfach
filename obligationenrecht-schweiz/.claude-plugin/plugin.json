@@ -1,7 +1,7 @@
 {
   "name": "obligationenrecht-schweiz",
   "version": "0.1.0",
-  "description": "OR-Workflows fuer Vertrag, Haftung, Verzug, Kauf, Auftrag, Werkvertrag, AGB und Verjaehrung nach Schweizer Recht.",
+  "description": "OR-Workflows für Vertrag, Haftung, Verzug, Kauf, Auftrag, Werkvertrag, AGB und Verjährung nach Schweizer Recht.",
   "license": "Apache-2.0 OR MIT",
   "author": {
     "name": "Schweizer Recht Einfach Maintainers"

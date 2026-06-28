@@ -1,23 +1,23 @@
 ---
 name: obligationenrecht-schweiz
-description: Schweizer Obligationenrecht fuer Vertrag, Konsens, Form, Willensmaengel, Erfuellung, Verzug, Schadenersatz, Kauf, Auftrag, Werkvertrag, AGB and Verjaehrung. Use for OR analysis and drafting.
+description: Schweizer Obligationenrecht für Vertrag, Konsens, Form, Willensmängel, Erfüllung, Verzug, Schadenersatz, Kauf, Auftrag, Werkvertrag, AGB und Verjährung. Use for OR analysis und drafting.
 ---
 
 # Obligationenrecht Schweiz
 
-## Pruefprogramm
+## Prüfprogramm
 
 1. Vertragstyp oder ausservertragliche Anspruchsgrundlage bestimmen.
-2. Parteien, Stellvertretung, Abschluss, Form und Konsens pruefen.
+2. Parteien, Stellvertretung, Abschluss, Form und Konsens prüfen.
 3. Leistungsprogramm und Nebenpflichten auslegen.
-4. Stoerung einordnen: Verzug, Unmoeglichkeit, Schlechterfuellung, Willensmangel, Gewaehrleistung oder Haftung.
-5. Rechtsfolge bestimmen: Erfuellung, Ruecktritt, Minderung, Schadenersatz, Genugtuung oder Bereicherung.
-6. Verjaehrung, Beweislast und Prozessweg pruefen.
+4. Störung einordnen: Verzug, Unmöglichkeit, Schlechterfüllung, Willensmangel, Gewährleistung oder Haftung.
+5. Rechtsfolge bestimmen: Erfüllung, Rücktritt, Minderung, Schadenersatz, Genugtuung oder Bereicherung.
+6. Verjährung, Beweislast und Prozessweg prüfen.
 7. Ergebnis mit Normzitaten nach Schweizer Zitierweise ausgeben.
 
 ## Typische Outputs
 
-- Anspruchspruefung.
+- Anspruchsprüfung.
 - Vertragsklausel mit Schweizer Rechtswahl.
 - Risikomatrix.
 - Mandantenbrief.
@@ -25,6 +25,6 @@ description: Schweizer Obligationenrecht fuer Vertrag, Konsens, Form, Willensmae
 
 ## Sperren
 
-- Keine deutsche BGB-Systematik als Ersatz fuer OR-Pruefung.
+- Keine deutsche BGB-Systematik als Ersatz für OR-Prüfung.
 - Keine pauschale AGB-Unwirksamkeit ohne Schweizer Normanker.
-- Keine Verjaehrungsfrist ohne Rechtsstand und Anspruchstyp.
+- Keine Verjährungsfrist ohne Rechtsstand und Anspruchstyp.

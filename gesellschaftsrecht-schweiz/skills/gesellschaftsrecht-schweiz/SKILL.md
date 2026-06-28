@@ -1,18 +1,18 @@
 ---
 name: gesellschaftsrecht-schweiz
-description: Schweizer Gesellschaftsrecht fuer AG, GmbH, Verein, Stiftung, Handelsregister, Organe, Aktienkapital, Gesellschafterrechte, Verwaltungsrat, GV and Corporate Governance. Use for Swiss corporate-law analysis and drafting.
+description: Schweizer Gesellschaftsrecht für AG, GmbH, Verein, Stiftung, Handelsregister, Organe, Aktienkapital, Gesellschafterrechte, Verwaltungsrat, GV und Corporate Governance. Use for Swiss corporate-law analysis und drafting.
 ---
 
 # Gesellschaftsrecht Schweiz
 
-## Pruefprogramm
+## Prüfprogramm
 
-1. Rechtstraeger bestimmen: AG, GmbH, Verein, Stiftung, Kollektivgesellschaft, Kommanditgesellschaft oder Einzelfirma.
-2. Handelsregister, Statuten, Organisationsreglemente und Beschluesse erfassen.
-3. Thema einordnen: Gruendung, Kapital, Organe, Vertretung, GV, Verantwortlichkeit, Sanierung oder Transaktion.
-4. Form, Beurkundung, Handelsregisteranmeldung und Fristen pruefen.
-5. Rechte und Pflichten von Verwaltungsrat, Geschaeftsfuehrung, Aktionaeren oder Gesellschaftern strukturieren.
-6. Ergebnis als Pruefvermerk, Beschlussentwurf, Checkliste oder Mandantenbrief ausgeben.
+1. Rechtsträger bestimmen: AG, GmbH, Verein, Stiftung, Kollektivgesellschaft, Kommanditgesellschaft oder Einzelfirma.
+2. Handelsregister, Statuten, Organisationsreglemente und Beschlüsse erfassen.
+3. Thema einordnen: Gründung, Kapital, Organe, Vertretung, GV, Verantwortlichkeit, Sanierung oder Transaktion.
+4. Form, Beurkundung, Handelsregisteranmeldung und Fristen prüfen.
+5. Rechte und Pflichten von Verwaltungsrat, Geschäftsführung, Aktionären oder Gesellschaftern strukturieren.
+6. Ergebnis als Prüfvermerk, Beschlussentwurf, Checkliste oder Mandantenbrief ausgeben.
 
 ## Kontrollpunkte
 
@@ -23,6 +23,6 @@ description: Schweizer Gesellschaftsrecht fuer AG, GmbH, Verein, Stiftung, Hande
 
 ## Sperren
 
-- Keine deutsche GmbH/AG-Logik ungeprueft uebernehmen.
+- Keine deutsche GmbH/AG-Logik ungeprüft übernehmen.
 - Keine Handelsregisteraussage ohne Registerauszug oder Nutzerangabe.
 - Keine Sanierungsaussage ohne Bilanzdaten.

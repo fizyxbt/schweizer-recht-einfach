@@ -1,6 +1,6 @@
 # schuldbetreibung-konkurs-schweiz
 
-SchKG-Workflows fuer Forderungsdurchsetzung, Rechtsvorschlag, Rechtsöffnung, Konkurs und Sanierung.
+SchKG-Workflows für Forderungsdurchsetzung, Rechtsvorschlag, Rechtsöffnung, Konkurs und Sanierung.
 
 ## Skill
 

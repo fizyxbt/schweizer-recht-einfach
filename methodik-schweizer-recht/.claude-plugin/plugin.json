@@ -1,7 +1,7 @@
 {
   "name": "methodik-schweizer-recht",
   "version": "0.1.0",
-  "description": "Methodik fuer Schweizer Recht: Normenhierarchie, Auslegung, Amtssprachen, Foederalismus, kantonale Zustaendigkeit und Rechtsmittelstruktur.",
+  "description": "Methodik für Schweizer Recht: Normenhierarchie, Auslegung, Amtssprachen, Föderalismus, kantonale Zuständigkeit und Rechtsmittelstruktur.",
   "license": "Apache-2.0 OR MIT",
   "author": {
     "name": "Schweizer Recht Einfach Maintainers"

@@ -1,6 +1,6 @@
 # verwaltungsverfahren-schweiz
 
-Verwaltungsrechtliche Workflows fuer Verfuegung, Einsprache, Beschwerde und Bundesgericht.
+Verwaltungsrechtliche Workflows für Verfügung, Einsprache, Beschwerde und Bundesgericht.
 
 ## Skill
 

@@ -1,6 +1,6 @@
 # obligationenrecht-schweiz
 
-Startplugin fuer OR-Pruefungen in Vertrag und Haftung.
+Startplugin für OR-Prüfungen in Vertrag und Haftung.
 
 ## Skill
 
