@@ -1,0 +1,82 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "swiss-legal-skills",
+  "description": "Experimentelle Claude Plugins und Skills fuer Schweizer Recht mit Fedlex, BGE, kantonalen Quellen und Schweizer Methodenlogik.",
+  "owner": {
+    "name": "Swiss Legal Skills Maintainers"
+  },
+  "plugins": [
+    {
+      "name": "zitierweise-schweizer-recht",
+      "source": "./zitierweise-schweizer-recht",
+      "description": "Zitierregeln fuer Schweizer Recht: SR, AS, BBl, BGE, Urteile des Bundesgerichts und kantonale Quellen mit Rechtsstand und Fundstelle.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Swiss Legal Skills Maintainers"
+      }
+    },
+    {
+      "name": "methodik-schweizer-recht",
+      "source": "./methodik-schweizer-recht",
+      "description": "Methodik fuer Schweizer Recht: Normenhierarchie, Auslegung, Amtssprachen, Foederalismus, kantonale Zustaendigkeit und Rechtsmittelstruktur.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Swiss Legal Skills Maintainers"
+      }
+    },
+    {
+      "name": "obligationenrecht-schweiz",
+      "source": "./obligationenrecht-schweiz",
+      "description": "OR-Workflows fuer Vertrag, Haftung, Verzug, Kauf, Auftrag, Werkvertrag, AGB und Verjaehrung nach Schweizer Recht.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Swiss Legal Skills Maintainers"
+      }
+    },
+    {
+      "name": "arbeitsrecht-schweiz",
+      "source": "./arbeitsrecht-schweiz",
+      "description": "Arbeitsrecht Schweiz: Arbeitsvertrag, Kuendigung, Sperrfristen, Arbeitszeit, Lohn, Zeugnis, Gleichstellung und Streitbeilegung.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Swiss Legal Skills Maintainers"
+      }
+    },
+    {
+      "name": "mietrecht-schweiz",
+      "source": "./mietrecht-schweiz",
+      "description": "Mietrecht Schweiz fuer Wohn- und Geschaeftsraeume: Mietzins, Nebenkosten, Kuendigung, Erstreckung, Maengel und Schlichtung.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Swiss Legal Skills Maintainers"
+      }
+    },
+    {
+      "name": "gesellschaftsrecht-schweiz",
+      "source": "./gesellschaftsrecht-schweiz",
+      "description": "Gesellschaftsrecht Schweiz: AG, GmbH, Verein, Stiftung, Handelsregister, Organe, Kapital, Aktionaere und Corporate Governance.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Swiss Legal Skills Maintainers"
+      }
+    },
+    {
+      "name": "schuldbetreibung-konkurs-schweiz",
+      "source": "./schuldbetreibung-konkurs-schweiz",
+      "description": "SchKG-Workflows fuer Betreibung, Rechtsvorschlag, Rechtsöffnung, Fortsetzung, Konkurs, Arrest, Nachlass und Sanierung.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Swiss Legal Skills Maintainers"
+      }
+    },
+    {
+      "name": "verwaltungsverfahren-schweiz",
+      "source": "./verwaltungsverfahren-schweiz",
+      "description": "Verwaltungsverfahren Schweiz: Verfuegung, rechtliches Gehoer, Einsprache, Beschwerde, VwVG, BGG und kantonale Verfahren.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Swiss Legal Skills Maintainers"
+      }
+    }
+  ]
+}
