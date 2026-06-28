@@ -101,6 +101,7 @@ def validate_coverage_files(errors: list[str]) -> None:
         ROOT / "references" / "sr-feinraster.md",
         ROOT / "references" / "grundrechte-katalog.md",
         ROOT / "references" / "kantonale-abdeckung.md",
+        ROOT / "references" / "kantonale-rechte-einfache-beispiele.md",
         ROOT / "references" / "kantone.md",
     ]
     for path in required:
@@ -109,6 +110,28 @@ def validate_coverage_files(errors: list[str]) -> None:
     canton_files = sorted((ROOT / "references" / "kantone").glob("*.md"))
     if len(canton_files) != 26:
         errors.append(f"references/kantone: expected 26 canton files, found {len(canton_files)}")
+    cantonal_examples = ROOT / "references" / "kantonale-rechte-einfache-beispiele.md"
+    if cantonal_examples.exists():
+        rows = markdown_table_rows(cantonal_examples, "Kanton | Kürzel")
+        if len(rows) < 26 * 30:
+            errors.append(
+                "references/kantonale-rechte-einfache-beispiele.md: "
+                f"expected at least 780 cantonal example rows, found {len(rows)}"
+            )
+        expected_codes = {
+            "AG", "AI", "AR", "BE", "BL", "BS", "FR", "GE", "GL", "GR", "JU", "LU", "NE",
+            "NW", "OW", "SG", "SH", "SO", "SZ", "TG", "TI", "UR", "VD", "VS", "ZG", "ZH",
+        }
+        counts = {code: 0 for code in expected_codes}
+        for row in rows:
+            if len(row) >= 2 and row[1] in counts:
+                counts[row[1]] += 1
+        missing = sorted(code for code, count in counts.items() if count < 30)
+        if missing:
+            errors.append(
+                "references/kantonale-rechte-einfache-beispiele.md: "
+                f"expected at least 30 examples per canton, missing {', '.join(missing)}"
+            )
     rights_catalogue = ROOT / "references" / "rechte-katalog.md"
     if rights_catalogue.exists():
         rows = [

@@ -85,6 +85,7 @@ Experimentelle Plugin- und Skill-Sammlung für Schweizer Recht. Dieses Repositor
 - [SR-Feinraster](./references/sr-feinraster.md)
 - [Grundrechte-Katalog](./references/grundrechte-katalog.md)
 - [Kantonale Abdeckung](./references/kantonale-abdeckung.md)
+- [Kantonale Rechte: einfache Beispiele](./references/kantonale-rechte-einfache-beispiele.md)
 - [Kantonsdateien](./references/kantone.md)
 
 ## Abdeckungsraster
@@ -96,6 +97,8 @@ Der Rechte- und Ansprüche-Katalog ist der direkte Einstieg für Fragen wie "Wel
 Der Fedlex-SR-Index ergänzt die handgepflegten Kataloge mit einer aktuellen maschinenlesbaren Abfrage des offiziellen Fedlex-SPARQL-Endpunkts. Er macht konkrete Bundesrechts-Erlasse sichtbar und verlinkt sie auf die passenden Startplugins.
 
 Die Fedlex-Beispieldatei ergänzt jeden dieser SR-Einträge mit einem einfachen Alltagsszenario, damit nicht nur das Rechtsgebiet, sondern auch ein Einstieg für Laien vorhanden ist.
+
+Die kantonale Rechte-Matrix ergänzt alle 26 Kantone mit einfachen Beispielen zu kantonalen Verfassungsrechten, politischen Rechten, Verwaltungsverfahren, Bau, Polizei, Schule, Steuern, Sozialhilfe, Öffentlichkeit, Datenschutz, Personalrecht und Gesundheitsrecht.
 
 ## Quellenanker
 

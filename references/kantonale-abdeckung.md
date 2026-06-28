@@ -38,3 +38,5 @@ Schweizer Recht ist ohne kantonale Ebene nicht vollständig. Diese Datei hält f
 3. Offizielle kantonale Gesetzessammlung verwenden.
 4. Kantonale Rechtsmittelfrist prüfen.
 5. Bundesrecht und kantonales Recht getrennt darstellen.
+
+Konkrete kantonale Rechte, Ansprüche und Verfahrenspositionen mit einfachen Beispielen stehen in [`kantonale-rechte-einfache-beispiele.md`](./kantonale-rechte-einfache-beispiele.md).

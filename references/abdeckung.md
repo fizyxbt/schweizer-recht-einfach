@@ -29,12 +29,13 @@ Diese Datei dokumentiert die fachliche Abdeckung gegen die grobe SR-Systematik u
 - Konkrete Bundesrechts-Erlasse aus Fedlex-SPARQL: [`fedlex-sr-index.md`](./fedlex-sr-index.md) und [`fedlex-sr-statistik.md`](./fedlex-sr-statistik.md).
 - Einfaches Beispiel pro Fedlex-SR-Eintrag: [`fedlex-sr-einfache-beispiele.md`](./fedlex-sr-einfache-beispiele.md).
 - Kantonale Rechtsbereiche in allen 26 Kantonen: [`kantonale-abdeckung.md`](./kantonale-abdeckung.md).
+- Konkrete kantonale Rechte und Ansprüche mit einfachen Beispielen in allen 26 Kantonen: [`kantonale-rechte-einfache-beispiele.md`](./kantonale-rechte-einfache-beispiele.md).
 - Kantonale Einstiegsdateien je Kanton: [`kantone.md`](./kantone.md).
 - Feineres SR- und Praxisraster: [`sr-feinraster.md`](./sr-feinraster.md).
 
 ## Noch offen für echte Vollständigkeit
 
-1. Pro Kanton braucht es eigene Unterdateien für Verfassung, Verwaltung, Bau, Schule, Polizei, Steuern und Verfahren.
+1. Pro Kanton braucht es als nächste Stufe eigene Detaildateien mit kantonalen Normzitaten und Behördenwegen.
 2. Pro Spezialgesetz braucht es eigene Beispiele und Quellenanker.
 3. Rechtsprechung ist noch nicht flächendeckend eingearbeitet.
 4. Testakten sind noch einfache Beispiele, keine realistischen Dossiers.
