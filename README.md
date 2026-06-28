@@ -80,6 +80,7 @@ Experimentelle Plugin- und Skill-Sammlung für Schweizer Recht. Dieses Repositor
 - [SR-Feinraster](./references/sr-feinraster.md)
 - [Grundrechte-Katalog](./references/grundrechte-katalog.md)
 - [Kantonale Abdeckung](./references/kantonale-abdeckung.md)
+- [Kantonsdateien](./references/kantone.md)
 
 ## Abdeckungsraster
 

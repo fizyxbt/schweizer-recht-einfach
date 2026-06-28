@@ -86,10 +86,14 @@ def validate_coverage_files(errors: list[str]) -> None:
         ROOT / "references" / "sr-feinraster.md",
         ROOT / "references" / "grundrechte-katalog.md",
         ROOT / "references" / "kantonale-abdeckung.md",
+        ROOT / "references" / "kantone.md",
     ]
     for path in required:
         if not path.exists():
             errors.append(f"{rel(path)}: required coverage file missing")
+    canton_files = sorted((ROOT / "references" / "kantone").glob("*.md"))
+    if len(canton_files) != 26:
+        errors.append(f"references/kantone: expected 26 canton files, found {len(canton_files)}")
 
 
 def main() -> int:
