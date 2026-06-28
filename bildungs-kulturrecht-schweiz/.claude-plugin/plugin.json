@@ -1,0 +1,16 @@
+{
+  "name": "bildungs-kulturrecht-schweiz",
+  "version": "0.1.0",
+  "description": "Bildungs-, Wissenschafts- und Kulturrecht Schweiz: Schule, Hochschule, Prüfungen, Forschung, Kulturförderung, Denkmalpflege und kantonale Zuständigkeit.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Schweizer Recht Einfach Maintainers"
+  },
+  "homepage": "https://github.com/fizyxbt/schweizer-recht-einfach",
+  "keywords": [
+    "bildung",
+    "schule",
+    "hochschule",
+    "kultur"
+  ]
+}

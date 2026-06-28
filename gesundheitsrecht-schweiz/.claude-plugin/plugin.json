@@ -1,0 +1,16 @@
+{
+  "name": "gesundheitsrecht-schweiz",
+  "version": "0.1.0",
+  "description": "Gesundheitsrecht Schweiz: Heilmittel, Krankenversicherung, Medizinalberufe, Spitäler, Tarife, Patientendaten, Public Health und Aufsicht.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Schweizer Recht Einfach Maintainers"
+  },
+  "homepage": "https://github.com/fizyxbt/schweizer-recht-einfach",
+  "keywords": [
+    "gesundheitsrecht",
+    "heilmittel",
+    "krankenversicherung",
+    "medizinalberufe"
+  ]
+}

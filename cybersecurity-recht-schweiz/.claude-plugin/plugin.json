@@ -1,0 +1,16 @@
+{
+  "name": "cybersecurity-recht-schweiz",
+  "version": "0.1.0",
+  "description": "Cybersecurity-Recht Schweiz: Informationssicherheit, Meldepflichten, kritische Infrastrukturen, Incident Response, Strafrecht, Datenschutz und Verträge.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Schweizer Recht Einfach Maintainers"
+  },
+  "homepage": "https://github.com/fizyxbt/schweizer-recht-einfach",
+  "keywords": [
+    "cybersecurity",
+    "incident-response",
+    "meldepflicht",
+    "kritische-infrastruktur"
+  ]
+}

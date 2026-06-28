@@ -1,0 +1,16 @@
+{
+  "name": "sportrecht-schweiz",
+  "version": "0.1.0",
+  "description": "Sportrecht Schweiz: Verbände, Doping, Disziplinarverfahren, Haftung, Arbeitsverträge im Sport, Events, Sicherheit und Swiss Olympic.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Schweizer Recht Einfach Maintainers"
+  },
+  "homepage": "https://github.com/fizyxbt/schweizer-recht-einfach",
+  "keywords": [
+    "sportrecht",
+    "doping",
+    "verband",
+    "event"
+  ]
+}

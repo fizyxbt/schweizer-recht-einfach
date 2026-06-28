@@ -1,0 +1,16 @@
+{
+  "name": "notariats-registerrecht-schweiz",
+  "version": "0.1.0",
+  "description": "Notariats- und Registerrecht Schweiz: öffentliche Beurkundung, Grundbuch, Handelsregister, Zivilstandsregister, Beglaubigung und kantonale Zuständigkeit.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Schweizer Recht Einfach Maintainers"
+  },
+  "homepage": "https://github.com/fizyxbt/schweizer-recht-einfach",
+  "keywords": [
+    "notariat",
+    "grundbuch",
+    "handelsregister",
+    "zivilstand"
+  ]
+}

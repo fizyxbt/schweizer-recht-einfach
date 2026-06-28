@@ -1,0 +1,16 @@
+{
+  "name": "sozialhilferecht-schweiz",
+  "version": "0.1.0",
+  "description": "Sozialhilferecht Schweiz: kantonale Sozialhilfe, SKOS, Bedürftigkeit, Auflagen, Rückerstattung, Sanktionen und Rechtsmittel.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Schweizer Recht Einfach Maintainers"
+  },
+  "homepage": "https://github.com/fizyxbt/schweizer-recht-einfach",
+  "keywords": [
+    "sozialhilfe",
+    "skos",
+    "beduerftigkeit",
+    "sanktion"
+  ]
+}

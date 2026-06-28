@@ -1,0 +1,16 @@
+{
+  "name": "grundrechte-menschenrechte-schweiz",
+  "version": "0.1.0",
+  "description": "Grundrechte und Menschenrechte Schweiz: BV, EMRK, UNO-Pakte, Verhältnismässigkeit, Diskriminierung, Verfahrensrechte und Rechtsmittel.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Schweizer Recht Einfach Maintainers"
+  },
+  "homepage": "https://github.com/fizyxbt/schweizer-recht-einfach",
+  "keywords": [
+    "grundrechte",
+    "menschenrechte",
+    "emrk",
+    "bv"
+  ]
+}

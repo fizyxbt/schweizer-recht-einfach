@@ -1,0 +1,16 @@
+{
+  "name": "familien-erbrecht-schweiz",
+  "version": "0.1.0",
+  "description": "Familien- und Erbrecht Schweiz: Ehe, Scheidung, Kindesrecht, Unterhalt, Vorsorgeausgleich, Testament, Erbvertrag, Pflichtteile und Nachlass.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Schweizer Recht Einfach Maintainers"
+  },
+  "homepage": "https://github.com/fizyxbt/schweizer-recht-einfach",
+  "keywords": [
+    "familienrecht",
+    "erbrecht",
+    "scheidung",
+    "unterhalt"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "bau-planungsrecht-schweiz",
+  "version": "0.1.0",
+  "description": "Bau- und Planungsrecht Schweiz: Raumplanung, Baubewilligung, Nutzungsplanung, Nachbarrechte, Enteignung, Zweitwohnungen und kantonales Baurecht.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Schweizer Recht Einfach Maintainers"
+  },
+  "homepage": "https://github.com/fizyxbt/schweizer-recht-einfach",
+  "keywords": [
+    "baurecht",
+    "raumplanung",
+    "baubewilligung",
+    "nachbarrecht"
+  ]
+}

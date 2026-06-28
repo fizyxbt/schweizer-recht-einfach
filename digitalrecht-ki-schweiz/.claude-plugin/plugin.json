@@ -1,0 +1,16 @@
+{
+  "name": "digitalrecht-ki-schweiz",
+  "version": "0.1.0",
+  "description": "Digital- und KI-Recht Schweiz: Plattformen, Software, Cloud, Daten, Algorithmen, KI-Governance, Haftung, Verträge und Regulierung.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Schweizer Recht Einfach Maintainers"
+  },
+  "homepage": "https://github.com/fizyxbt/schweizer-recht-einfach",
+  "keywords": [
+    "digitalrecht",
+    "ki",
+    "software",
+    "cloud"
+  ]
+}

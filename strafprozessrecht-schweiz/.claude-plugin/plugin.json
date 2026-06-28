@@ -1,0 +1,16 @@
+{
+  "name": "strafprozessrecht-schweiz",
+  "version": "0.1.0",
+  "description": "Strafprozessrecht Schweiz: StPO, Zwangsmassnahmen, Einvernahme, Verteidigung, Beweise, Opferrechte, Strafbefehl und Rechtsmittel.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Schweizer Recht Einfach Maintainers"
+  },
+  "homepage": "https://github.com/fizyxbt/schweizer-recht-einfach",
+  "keywords": [
+    "stpo",
+    "strafprozess",
+    "verteidigung",
+    "zwangsmassnahmen"
+  ]
+}

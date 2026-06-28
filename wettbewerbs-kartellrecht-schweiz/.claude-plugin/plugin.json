@@ -1,0 +1,16 @@
+{
+  "name": "wettbewerbs-kartellrecht-schweiz",
+  "version": "0.1.0",
+  "description": "Wettbewerbs- und Kartellrecht Schweiz: KG, UWG, WEKO, marktbeherrschende Stellung, Abreden, Zusammenschlüsse, Preisbekanntgabe und Lauterkeit.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Schweizer Recht Einfach Maintainers"
+  },
+  "homepage": "https://github.com/fizyxbt/schweizer-recht-einfach",
+  "keywords": [
+    "kartellrecht",
+    "wettbewerb",
+    "weko",
+    "uwg"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "energie-verkehr-umwelt-schweiz",
+  "version": "0.1.0",
+  "description": "Energie-, Verkehrs- und Umweltrecht Schweiz: Raum, Infrastruktur, Strom, Klima, Gewässer, Abfall, Strasse, Bahn, Luftfahrt und Bewilligungen.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Schweizer Recht Einfach Maintainers"
+  },
+  "homepage": "https://github.com/fizyxbt/schweizer-recht-einfach",
+  "keywords": [
+    "energie",
+    "verkehr",
+    "umwelt",
+    "infrastruktur"
+  ]
+}

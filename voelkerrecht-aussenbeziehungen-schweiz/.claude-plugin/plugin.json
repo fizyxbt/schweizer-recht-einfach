@@ -1,0 +1,16 @@
+{
+  "name": "voelkerrecht-aussenbeziehungen-schweiz",
+  "version": "0.1.0",
+  "description": "Völkerrecht und Aussenbeziehungen Schweiz: Staatsverträge, diplomatische Beziehungen, Immunitäten, Menschenrechte, Neutralität und Umsetzung ins Landesrecht.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Schweizer Recht Einfach Maintainers"
+  },
+  "homepage": "https://github.com/fizyxbt/schweizer-recht-einfach",
+  "keywords": [
+    "voelkerrecht",
+    "staatsvertrag",
+    "aussenbeziehungen",
+    "neutralitaet"
+  ]
+}

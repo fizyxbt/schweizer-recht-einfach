@@ -1,0 +1,15 @@
+{
+  "name": "strafrecht-schweiz",
+  "version": "0.1.0",
+  "description": "Strafrecht Schweiz: StGB, Nebenstrafrecht, Tatbestand, Rechtswidrigkeit, Schuld, Sanktionen, Strafzumessung und Einziehung.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Schweizer Recht Einfach Maintainers"
+  },
+  "homepage": "https://github.com/fizyxbt/schweizer-recht-einfach",
+  "keywords": [
+    "strafrecht",
+    "stgb",
+    "strafzumessung"
+  ]
+}

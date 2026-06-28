@@ -1,33 +1,15 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "schweizer-recht-einfach",
-  "description": "Experimentelle Plugins und Skills fuer Schweizer Recht mit Fedlex, BGE, kantonalen Quellen und Schweizer Methodenlogik.",
+  "description": "Experimentelle Plugins und Skills für Schweizer Recht mit Fedlex, BGE, kantonalen Quellen und Schweizer Methodenlogik.",
   "owner": {
     "name": "Schweizer Recht Einfach Maintainers"
   },
   "plugins": [
     {
-      "name": "zitierweise-schweizer-recht",
-      "source": "./zitierweise-schweizer-recht",
-      "description": "Zitierregeln fuer Schweizer Recht: SR, AS, BBl, BGE, Urteile des Bundesgerichts und kantonale Quellen mit Rechtsstand und Fundstelle.",
-      "version": "0.1.0",
-      "author": {
-        "name": "Schweizer Recht Einfach Maintainers"
-      }
-    },
-    {
-      "name": "methodik-schweizer-recht",
-      "source": "./methodik-schweizer-recht",
-      "description": "Methodik fuer Schweizer Recht: Normenhierarchie, Auslegung, Amtssprachen, Foederalismus, kantonale Zustaendigkeit und Rechtsmittelstruktur.",
-      "version": "0.1.0",
-      "author": {
-        "name": "Schweizer Recht Einfach Maintainers"
-      }
-    },
-    {
-      "name": "obligationenrecht-schweiz",
-      "source": "./obligationenrecht-schweiz",
-      "description": "OR-Workflows fuer Vertrag, Haftung, Verzug, Kauf, Auftrag, Werkvertrag, AGB und Verjaehrung nach Schweizer Recht.",
+      "name": "agrar-lebensmittelrecht-schweiz",
+      "source": "./agrar-lebensmittelrecht-schweiz",
+      "description": "Agrar- und Lebensmittelrecht Schweiz: Landwirtschaft, Direktzahlungen, Lebensmittel, Kennzeichnung, Tierseuchen, Pflanzenschutz und Kontrollen.",
       "version": "0.1.0",
       "author": {
         "name": "Schweizer Recht Einfach Maintainers"
@@ -36,16 +18,106 @@
     {
       "name": "arbeitsrecht-schweiz",
       "source": "./arbeitsrecht-schweiz",
-      "description": "Arbeitsrecht Schweiz: Arbeitsvertrag, Kuendigung, Sperrfristen, Arbeitszeit, Lohn, Zeugnis, Gleichstellung und Streitbeilegung.",
+      "description": "Arbeitsrecht Schweiz: Arbeitsvertrag, Kündigung, Sperrfristen, Arbeitszeit, Lohn, Zeugnis, Gleichstellung und Streitbeilegung.",
       "version": "0.1.0",
       "author": {
         "name": "Schweizer Recht Einfach Maintainers"
       }
     },
     {
-      "name": "mietrecht-schweiz",
-      "source": "./mietrecht-schweiz",
-      "description": "Mietrecht Schweiz fuer Wohn- und Geschaeftsraeume: Mietzins, Nebenkosten, Kuendigung, Erstreckung, Maengel und Schlichtung.",
+      "name": "banken-insolvenz-sanierung-schweiz",
+      "source": "./banken-insolvenz-sanierung-schweiz",
+      "description": "Bankeninsolvenz und Sanierung Schweiz: FINMA-Massnahmen, Bankenstabilisierung, Konkurs, Einlegerschutz, Resolution und Gläubigerrechte.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "bau-planungsrecht-schweiz",
+      "source": "./bau-planungsrecht-schweiz",
+      "description": "Bau- und Planungsrecht Schweiz: Raumplanung, Baubewilligung, Nutzungsplanung, Nachbarrechte, Enteignung, Zweitwohnungen und kantonales Baurecht.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "beschaffungsrecht-schweiz",
+      "source": "./beschaffungsrecht-schweiz",
+      "description": "Beschaffungsrecht Schweiz: BöB, IVöB, WTO-GPA, Ausschreibung, Zuschlag, Eignung, Zuschlagskriterien, Beschwerde und Vergabestrategie.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "bildungs-kulturrecht-schweiz",
+      "source": "./bildungs-kulturrecht-schweiz",
+      "description": "Bildungs-, Wissenschafts- und Kulturrecht Schweiz: Schule, Hochschule, Prüfungen, Forschung, Kulturförderung, Denkmalpflege und kantonale Zuständigkeit.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "cybersecurity-recht-schweiz",
+      "source": "./cybersecurity-recht-schweiz",
+      "description": "Cybersecurity-Recht Schweiz: Informationssicherheit, Meldepflichten, kritische Infrastrukturen, Incident Response, Strafrecht, Datenschutz und Verträge.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "datenschutzrecht-schweiz",
+      "source": "./datenschutzrecht-schweiz",
+      "description": "Datenschutzrecht Schweiz: DSG, DSV, EDÖB, Bearbeitung, Bekanntgabe ins Ausland, Profiling, Datensicherheit, Betroffenenrechte und Governance.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "digitalrecht-ki-schweiz",
+      "source": "./digitalrecht-ki-schweiz",
+      "description": "Digital- und KI-Recht Schweiz: Plattformen, Software, Cloud, Daten, Algorithmen, KI-Governance, Haftung, Verträge und Regulierung.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "energie-verkehr-umwelt-schweiz",
+      "source": "./energie-verkehr-umwelt-schweiz",
+      "description": "Energie-, Verkehrs- und Umweltrecht Schweiz: Raum, Infrastruktur, Strom, Klima, Gewässer, Abfall, Strasse, Bahn, Luftfahrt und Bewilligungen.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "familien-erbrecht-schweiz",
+      "source": "./familien-erbrecht-schweiz",
+      "description": "Familien- und Erbrecht Schweiz: Ehe, Scheidung, Kindesrecht, Unterhalt, Vorsorgeausgleich, Testament, Erbvertrag, Pflichtteile und Nachlass.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "finanzmarktrecht-schweiz",
+      "source": "./finanzmarktrecht-schweiz",
+      "description": "Finanzmarktrecht Schweiz: FINMA, Banken, Versicherungen, Kollektivanlagen, Geldwäscherei, FinSA, FinIA, FinfraG und Aufsicht.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "gemeinde-polizeirecht-schweiz",
+      "source": "./gemeinde-polizeirecht-schweiz",
+      "description": "Gemeinde- und Polizeirecht Schweiz: kommunale Reglemente, Polizeibewilligungen, Veranstaltungen, Sicherheit, Gebühren und kantonale Aufsicht.",
       "version": "0.1.0",
       "author": {
         "name": "Schweizer Recht Einfach Maintainers"
@@ -61,9 +133,243 @@
       }
     },
     {
+      "name": "gesundheitsrecht-schweiz",
+      "source": "./gesundheitsrecht-schweiz",
+      "description": "Gesundheitsrecht Schweiz: Heilmittel, Krankenversicherung, Medizinalberufe, Spitäler, Tarife, Patientendaten, Public Health und Aufsicht.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "grundrechte-menschenrechte-schweiz",
+      "source": "./grundrechte-menschenrechte-schweiz",
+      "description": "Grundrechte und Menschenrechte Schweiz: BV, EMRK, UNO-Pakte, Verhältnismässigkeit, Diskriminierung, Verfahrensrechte und Rechtsmittel.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "immaterialgueterrecht-schweiz",
+      "source": "./immaterialgueterrecht-schweiz",
+      "description": "Immaterialgüterrecht Schweiz: Marken, Urheberrecht, Patente, Designs, Lauterkeit, Lizenzverträge, IGE-Verfahren und Durchsetzung.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "internationales-privatrecht-schweiz",
+      "source": "./internationales-privatrecht-schweiz",
+      "description": "Internationales Privatrecht Schweiz: IPRG, LugÜ, Gerichtsstand, anwendbares Recht, Anerkennung, Vollstreckung, internationale Verträge und Schiedsgerichtsbarkeit.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "kommunikations-medienrecht-schweiz",
+      "source": "./kommunikations-medienrecht-schweiz",
+      "description": "Kommunikations- und Medienrecht Schweiz: Fernmeldegesetz, Post, Radio, Fernsehen, Plattformen, Medienförderung, Werbung und Online-Kommunikation.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "konsumentenrecht-schweiz",
+      "source": "./konsumentenrecht-schweiz",
+      "description": "Konsumentenrecht Schweiz: Vertragsabschluss, Widerrufsschnittstellen, Preisbekanntgabe, AGB, Lauterkeit, Produktsicherheit und E-Commerce.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "landesverteidigung-sicherheit-schweiz",
+      "source": "./landesverteidigung-sicherheit-schweiz",
+      "description": "Landesverteidigung und Sicherheit Schweiz: Militärdienst, Zivildienst, Bevölkerungsschutz, Nachrichtendienst, Waffenrecht und Sicherheitsrecht.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "methodik-schweizer-recht",
+      "source": "./methodik-schweizer-recht",
+      "description": "Methodik für Schweizer Recht: Normenhierarchie, Auslegung, Amtssprachen, Föderalismus, kantonale Zuständigkeit und Rechtsmittelstruktur.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "mietrecht-schweiz",
+      "source": "./mietrecht-schweiz",
+      "description": "Mietrecht Schweiz für Wohn- und Geschäftsraeume: Mietzins, Nebenkosten, Kündigung, Erstreckung, Mängel und Schlichtung.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "migrationsrecht-schweiz",
+      "source": "./migrationsrecht-schweiz",
+      "description": "Migrations- und Asylrecht Schweiz: AIG, AsylG, Aufenthalt, Familiennachzug, Wegweisung, Härtefall, Bürgerrecht und Rechtsmittel.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "notariats-registerrecht-schweiz",
+      "source": "./notariats-registerrecht-schweiz",
+      "description": "Notariats- und Registerrecht Schweiz: öffentliche Beurkundung, Grundbuch, Handelsregister, Zivilstandsregister, Beglaubigung und kantonale Zuständigkeit.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "obligationenrecht-schweiz",
+      "source": "./obligationenrecht-schweiz",
+      "description": "OR-Workflows für Vertrag, Haftung, Verzug, Kauf, Auftrag, Werkvertrag, AGB und Verjährung nach Schweizer Recht.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "oeffentlichkeitsprinzip-informationsrecht-schweiz",
+      "source": "./oeffentlichkeitsprinzip-informationsrecht-schweiz",
+      "description": "Öffentlichkeitsprinzip und Informationsrecht Schweiz: BGÖ, kantonale Öffentlichkeitsgesetze, Akteneinsicht, Amtsgeheimnis, Medienanfragen und Datenschutzschnittstellen.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "personalrecht-oeffentlicher-dienst-schweiz",
+      "source": "./personalrecht-oeffentlicher-dienst-schweiz",
+      "description": "Personalrecht öffentlicher Dienst Schweiz: Bundespersonal, kantonales Personalrecht, Anstellung, Kündigung, Disziplinarrecht, Lohn und Rechtsschutz.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "religions-kirchenrecht-schweiz",
+      "source": "./religions-kirchenrecht-schweiz",
+      "description": "Religions- und Kirchenrecht Schweiz: Religionsfreiheit, Landeskirchen, öffentlich-rechtliche Anerkennung, Kirchensteuer und kantonales Recht.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
       "name": "schuldbetreibung-konkurs-schweiz",
       "source": "./schuldbetreibung-konkurs-schweiz",
-      "description": "SchKG-Workflows fuer Betreibung, Rechtsvorschlag, Rechtsöffnung, Fortsetzung, Konkurs, Arrest, Nachlass und Sanierung.",
+      "description": "SchKG-Workflows für Betreibung, Rechtsvorschlag, Rechtsöffnung, Fortsetzung, Konkurs, Arrest, Nachlass und Sanierung.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "sozialhilferecht-schweiz",
+      "source": "./sozialhilferecht-schweiz",
+      "description": "Sozialhilferecht Schweiz: kantonale Sozialhilfe, SKOS, Bedürftigkeit, Auflagen, Rückerstattung, Sanktionen und Rechtsmittel.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "sozialversicherungsrecht-schweiz",
+      "source": "./sozialversicherungsrecht-schweiz",
+      "description": "Sozialversicherungsrecht Schweiz: AHV, IV, EL, BVG, UVG, ALV, KVG-Schnittstellen, ATSG, Einsprache, Beschwerde und Leistungskoordination.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "sportrecht-schweiz",
+      "source": "./sportrecht-schweiz",
+      "description": "Sportrecht Schweiz: Verbände, Doping, Disziplinarverfahren, Haftung, Arbeitsverträge im Sport, Events, Sicherheit und Swiss Olympic.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "staatsrecht-schweiz",
+      "source": "./staatsrecht-schweiz",
+      "description": "Staatsrecht Schweiz: BV, Grundrechte, Behörden, Föderalismus, politische Rechte, Gesetzgebung und öffentliche Organisation.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "steuerrecht-schweiz",
+      "source": "./steuerrecht-schweiz",
+      "description": "Steuerrecht Schweiz: direkte Bundessteuer, Mehrwertsteuer, Verrechnungssteuer, Stempelabgaben, kantonale Steuern, Steuerverfahren und Steuerstrafrecht.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "strafprozessrecht-schweiz",
+      "source": "./strafprozessrecht-schweiz",
+      "description": "Strafprozessrecht Schweiz: StPO, Zwangsmassnahmen, Einvernahme, Verteidigung, Beweise, Opferrechte, Strafbefehl und Rechtsmittel.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "strafrecht-schweiz",
+      "source": "./strafrecht-schweiz",
+      "description": "Strafrecht Schweiz: StGB, Nebenstrafrecht, Tatbestand, Rechtswidrigkeit, Schuld, Sanktionen, Strafzumessung und Einziehung.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "strafvollzug-schweiz",
+      "source": "./strafvollzug-schweiz",
+      "description": "Straf- und Massnahmenvollzug Schweiz: Vollzugsplanung, Haftbedingungen, bedingte Entlassung, Disziplinarmassnahmen, Massnahmen und Rechtsmittel.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "strassenverkehrsrecht-schweiz",
+      "source": "./strassenverkehrsrecht-schweiz",
+      "description": "Strassenverkehrsrecht Schweiz: SVG, Verkehrsregeln, Administrativmassnahmen, Bussen, Führerausweis, Unfall, Haftung und Strafverfahren.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "tierschutzrecht-schweiz",
+      "source": "./tierschutzrecht-schweiz",
+      "description": "Tierschutzrecht Schweiz: Tierhaltung, Tierversuche, Tiertransporte, Nutztierhaltung, Heimtiere, Kontrollen, Verfügungen und Sanktionen.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "versicherungsrecht-schweiz",
+      "source": "./versicherungsrecht-schweiz",
+      "description": "Versicherungsrecht Schweiz: VVG, KVG-Schnittstellen, Versicherungsvertrag, Deckung, Obliegenheiten, Leistungsablehnung und Aufsicht.",
       "version": "0.1.0",
       "author": {
         "name": "Schweizer Recht Einfach Maintainers"
@@ -72,7 +378,61 @@
     {
       "name": "verwaltungsverfahren-schweiz",
       "source": "./verwaltungsverfahren-schweiz",
-      "description": "Verwaltungsverfahren Schweiz: Verfuegung, rechtliches Gehoer, Einsprache, Beschwerde, VwVG, BGG und kantonale Verfahren.",
+      "description": "Verwaltungsverfahren Schweiz: Verfügung, rechtliches Gehör, Einsprache, Beschwerde, VwVG, BGG und kantonale Verfahren.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "voelkerrecht-aussenbeziehungen-schweiz",
+      "source": "./voelkerrecht-aussenbeziehungen-schweiz",
+      "description": "Völkerrecht und Aussenbeziehungen Schweiz: Staatsverträge, diplomatische Beziehungen, Immunitäten, Menschenrechte, Neutralität und Umsetzung ins Landesrecht.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "wettbewerbs-kartellrecht-schweiz",
+      "source": "./wettbewerbs-kartellrecht-schweiz",
+      "description": "Wettbewerbs- und Kartellrecht Schweiz: KG, UWG, WEKO, marktbeherrschende Stellung, Abreden, Zusammenschlüsse, Preisbekanntgabe und Lauterkeit.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "zitierweise-schweizer-recht",
+      "source": "./zitierweise-schweizer-recht",
+      "description": "Zitierregeln für Schweizer Recht: SR, AS, BBl, BGE, Urteile des Bundesgerichts und kantonale Quellen mit Rechtsstand und Fundstelle.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "zivilprozessrecht-schweiz",
+      "source": "./zivilprozessrecht-schweiz",
+      "description": "Zivilprozessrecht Schweiz: ZPO, Schlichtung, Klage, vorsorgliche Massnahmen, Beweis, Rechtsmittel, Vollstreckung und kantonale Gerichte.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "zivilrecht-zgb-schweiz",
+      "source": "./zivilrecht-zgb-schweiz",
+      "description": "Zivilrecht Schweiz nach ZGB: Personenrecht, Familienrecht, Erbrecht, Sachenrecht, Besitz, Eigentum, Grundbuch und Persönlichkeitsschutz.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
+      "name": "zoll-aussenwirtschaft-schweiz",
+      "source": "./zoll-aussenwirtschaft-schweiz",
+      "description": "Zoll- und Aussenwirtschaftsrecht Schweiz: Zoll, Ursprung, Einfuhr, Ausfuhr, Sanktionen, Exportkontrolle, Embargos und Handelsmassnahmen.",
       "version": "0.1.0",
       "author": {
         "name": "Schweizer Recht Einfach Maintainers"

@@ -1,0 +1,16 @@
+{
+  "name": "strafvollzug-schweiz",
+  "version": "0.1.0",
+  "description": "Straf- und Massnahmenvollzug Schweiz: Vollzugsplanung, Haftbedingungen, bedingte Entlassung, Disziplinarmassnahmen, Massnahmen und Rechtsmittel.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Schweizer Recht Einfach Maintainers"
+  },
+  "homepage": "https://github.com/fizyxbt/schweizer-recht-einfach",
+  "keywords": [
+    "strafvollzug",
+    "haftbedingungen",
+    "massnahmenvollzug",
+    "entlassung"
+  ]
+}

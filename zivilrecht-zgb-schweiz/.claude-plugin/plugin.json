@@ -1,0 +1,16 @@
+{
+  "name": "zivilrecht-zgb-schweiz",
+  "version": "0.1.0",
+  "description": "Zivilrecht Schweiz nach ZGB: Personenrecht, Familienrecht, Erbrecht, Sachenrecht, Besitz, Eigentum, Grundbuch und Persönlichkeitsschutz.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Schweizer Recht Einfach Maintainers"
+  },
+  "homepage": "https://github.com/fizyxbt/schweizer-recht-einfach",
+  "keywords": [
+    "zgb",
+    "zivilrecht",
+    "familienrecht",
+    "erbrecht"
+  ]
+}

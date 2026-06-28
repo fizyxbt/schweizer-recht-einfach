@@ -1,0 +1,16 @@
+{
+  "name": "zoll-aussenwirtschaft-schweiz",
+  "version": "0.1.0",
+  "description": "Zoll- und Aussenwirtschaftsrecht Schweiz: Zoll, Ursprung, Einfuhr, Ausfuhr, Sanktionen, Exportkontrolle, Embargos und Handelsmassnahmen.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Schweizer Recht Einfach Maintainers"
+  },
+  "homepage": "https://github.com/fizyxbt/schweizer-recht-einfach",
+  "keywords": [
+    "zoll",
+    "exportkontrolle",
+    "sanktionen",
+    "ursprung"
+  ]
+}

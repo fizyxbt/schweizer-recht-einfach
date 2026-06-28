@@ -1,0 +1,16 @@
+{
+  "name": "finanzmarktrecht-schweiz",
+  "version": "0.1.0",
+  "description": "Finanzmarktrecht Schweiz: FINMA, Banken, Versicherungen, Kollektivanlagen, Geldwäscherei, FinSA, FinIA, FinfraG und Aufsicht.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Schweizer Recht Einfach Maintainers"
+  },
+  "homepage": "https://github.com/fizyxbt/schweizer-recht-einfach",
+  "keywords": [
+    "finma",
+    "banken",
+    "finanzmarkt",
+    "aml"
+  ]
+}

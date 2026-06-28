@@ -1,0 +1,16 @@
+{
+  "name": "versicherungsrecht-schweiz",
+  "version": "0.1.0",
+  "description": "Versicherungsrecht Schweiz: VVG, KVG-Schnittstellen, Versicherungsvertrag, Deckung, Obliegenheiten, Leistungsablehnung und Aufsicht.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Schweizer Recht Einfach Maintainers"
+  },
+  "homepage": "https://github.com/fizyxbt/schweizer-recht-einfach",
+  "keywords": [
+    "vvg",
+    "versicherung",
+    "deckung",
+    "obliegenheiten"
+  ]
+}

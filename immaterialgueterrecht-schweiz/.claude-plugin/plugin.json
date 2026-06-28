@@ -1,0 +1,16 @@
+{
+  "name": "immaterialgueterrecht-schweiz",
+  "version": "0.1.0",
+  "description": "Immaterialgüterrecht Schweiz: Marken, Urheberrecht, Patente, Designs, Lauterkeit, Lizenzverträge, IGE-Verfahren und Durchsetzung.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Schweizer Recht Einfach Maintainers"
+  },
+  "homepage": "https://github.com/fizyxbt/schweizer-recht-einfach",
+  "keywords": [
+    "markenrecht",
+    "urheberrecht",
+    "patentrecht",
+    "ige"
+  ]
+}
