@@ -78,12 +78,24 @@ def validate_readme_counts(plugin_count: int, skill_count: int, errors: list[str
         errors.append(f"README.md: Skills count is {found.get('Skills')} but actual is {skill_count}")
 
 
+def markdown_table_rows(path: Path, header_marker: str) -> list[list[str]]:
+    rows = []
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if not line.startswith("| "):
+            continue
+        if line.startswith("| ---") or header_marker in line:
+            continue
+        rows.append([cell.strip() for cell in line.strip().strip("|").split("|")])
+    return rows
+
+
 def validate_coverage_files(errors: list[str]) -> None:
     required = [
         ROOT / "references" / "abdeckung.md",
         ROOT / "references" / "einfache-beispiele.md",
         ROOT / "references" / "rechte-katalog.md",
         ROOT / "references" / "fedlex-sr-index.md",
+        ROOT / "references" / "fedlex-sr-einfache-beispiele.md",
         ROOT / "references" / "fedlex-sr-statistik.md",
         ROOT / "references" / "rechtsgebiete-index.md",
         ROOT / "references" / "sr-feinraster.md",
@@ -106,13 +118,32 @@ def validate_coverage_files(errors: list[str]) -> None:
         if len(rows) < 100:
             errors.append(f"references/rechte-katalog.md: expected at least 100 rights rows, found {len(rows)}")
     fedlex_index = ROOT / "references" / "fedlex-sr-index.md"
+    fedlex_rows: list[list[str]] = []
     if fedlex_index.exists():
-        rows = [
-            line for line in fedlex_index.read_text(encoding="utf-8").splitlines()
-            if line.startswith("| ") and not line.startswith("| ---") and "SR | Kurztitel" not in line
-        ]
+        fedlex_rows = markdown_table_rows(fedlex_index, "SR | Kurztitel")
+        if len(fedlex_rows) < 10000:
+            errors.append(f"references/fedlex-sr-index.md: expected at least 10000 SR rows, found {len(fedlex_rows)}")
+    fedlex_examples = ROOT / "references" / "fedlex-sr-einfache-beispiele.md"
+    if fedlex_examples.exists():
+        rows = markdown_table_rows(fedlex_examples, "SR | Titel")
         if len(rows) < 10000:
-            errors.append(f"references/fedlex-sr-index.md: expected at least 10000 SR rows, found {len(rows)}")
+            errors.append(f"references/fedlex-sr-einfache-beispiele.md: expected at least 10000 example rows, found {len(rows)}")
+        if fedlex_rows and len(rows) != len(fedlex_rows):
+            errors.append(
+                "references/fedlex-sr-einfache-beispiele.md: "
+                f"example row count {len(rows)} does not match Fedlex index row count {len(fedlex_rows)}"
+            )
+        if fedlex_rows and len(rows) == len(fedlex_rows):
+            for number, (index_row, example_row) in enumerate(zip(fedlex_rows, rows), start=1):
+                if len(index_row) < 3 or len(example_row) < 2:
+                    errors.append(f"references/fedlex-sr-einfache-beispiele.md: malformed table row {number}")
+                    continue
+                if index_row[0] != example_row[0] or index_row[2] != example_row[1]:
+                    errors.append(
+                        "references/fedlex-sr-einfache-beispiele.md: "
+                        f"row {number} does not match index ({index_row[0]} {index_row[2]})"
+                    )
+                    break
     fedlex_stats = ROOT / "references" / "fedlex-sr-statistik.md"
     if fedlex_stats.exists():
         text = fedlex_stats.read_text(encoding="utf-8")
