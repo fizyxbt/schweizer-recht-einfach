@@ -83,6 +83,8 @@ def validate_coverage_files(errors: list[str]) -> None:
         ROOT / "references" / "abdeckung.md",
         ROOT / "references" / "einfache-beispiele.md",
         ROOT / "references" / "rechte-katalog.md",
+        ROOT / "references" / "fedlex-sr-index.md",
+        ROOT / "references" / "fedlex-sr-statistik.md",
         ROOT / "references" / "rechtsgebiete-index.md",
         ROOT / "references" / "sr-feinraster.md",
         ROOT / "references" / "grundrechte-katalog.md",
@@ -103,6 +105,20 @@ def validate_coverage_files(errors: list[str]) -> None:
         ]
         if len(rows) < 100:
             errors.append(f"references/rechte-katalog.md: expected at least 100 rights rows, found {len(rows)}")
+    fedlex_index = ROOT / "references" / "fedlex-sr-index.md"
+    if fedlex_index.exists():
+        rows = [
+            line for line in fedlex_index.read_text(encoding="utf-8").splitlines()
+            if line.startswith("| ") and not line.startswith("| ---") and "SR | Kurztitel" not in line
+        ]
+        if len(rows) < 10000:
+            errors.append(f"references/fedlex-sr-index.md: expected at least 10000 SR rows, found {len(rows)}")
+    fedlex_stats = ROOT / "references" / "fedlex-sr-statistik.md"
+    if fedlex_stats.exists():
+        text = fedlex_stats.read_text(encoding="utf-8")
+        for group in range(10):
+            if f"| {group} " not in text:
+                errors.append(f"references/fedlex-sr-statistik.md: missing SR main group {group}")
 
 
 def main() -> int:

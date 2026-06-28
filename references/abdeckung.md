@@ -26,6 +26,7 @@ Diese Datei dokumentiert die fachliche Abdeckung gegen die grobe SR-Systematik u
 - Verkehr, öffentlicher Dienst, Öffentlichkeit und Sozialhilfe: `strassenverkehrsrecht-schweiz`, `personalrecht-oeffentlicher-dienst-schweiz`, `oeffentlichkeitsprinzip-informationsrecht-schweiz`, `sozialhilferecht-schweiz`.
 - Einzelne Grundrechte der Bundesverfassung: [`grundrechte-katalog.md`](./grundrechte-katalog.md).
 - Konkrete Rechte und Ansprüche aus BV, OR, ZGB, ZPO, StPO, SchKG, ATSG, DSG und kantonalem Recht: [`rechte-katalog.md`](./rechte-katalog.md).
+- Konkrete Bundesrechts-Erlasse aus Fedlex-SPARQL: [`fedlex-sr-index.md`](./fedlex-sr-index.md) und [`fedlex-sr-statistik.md`](./fedlex-sr-statistik.md).
 - Kantonale Rechtsbereiche in allen 26 Kantonen: [`kantonale-abdeckung.md`](./kantonale-abdeckung.md).
 - Kantonale Einstiegsdateien je Kanton: [`kantone.md`](./kantone.md).
 - Feineres SR- und Praxisraster: [`sr-feinraster.md`](./sr-feinraster.md).

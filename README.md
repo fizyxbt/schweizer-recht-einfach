@@ -79,6 +79,8 @@ Experimentelle Plugin- und Skill-Sammlung für Schweizer Recht. Dieses Repositor
 - [Rechtsgebiete-Index](./references/rechtsgebiete-index.md)
 - [Rechte- und Ansprüche-Katalog](./references/rechte-katalog.md)
 - [Einfache Beispiele](./references/einfache-beispiele.md)
+- [Fedlex-SR-Index Bundesrecht](./references/fedlex-sr-index.md)
+- [Fedlex-SR-Statistik](./references/fedlex-sr-statistik.md)
 - [SR-Feinraster](./references/sr-feinraster.md)
 - [Grundrechte-Katalog](./references/grundrechte-katalog.md)
 - [Kantonale Abdeckung](./references/kantonale-abdeckung.md)
@@ -89,6 +91,8 @@ Experimentelle Plugin- und Skill-Sammlung für Schweizer Recht. Dieses Repositor
 Die Sammlung orientiert sich an der Systematischen Rechtssammlung des Bundesrechts und ergänzt sie um kantonale und praktische Rechtsgebiete. Sie bildet alle grossen Rechtsblöcke mit Startplugins und einfachen Beispielen ab, aber jedes Spezialgesetz und jede kantonale Variante muss weiter vertieft werden. Details stehen in [`references/abdeckung.md`](./references/abdeckung.md).
 
 Der Rechte- und Ansprüche-Katalog ist der direkte Einstieg für Fragen wie "Welche Rechte habe ich?". Er enthält konkrete Grundrechte, Verfahrensrechte, zivilrechtliche Ansprüche, Miet-, Arbeits-, Konsumenten-, Steuer-, Sozialversicherungs-, Datenschutz-, Strafprozess- und kantonale Rechte mit einfachem Beispiel und passendem Startplugin.
+
+Der Fedlex-SR-Index ergänzt die handgepflegten Kataloge mit einer aktuellen maschinenlesbaren Abfrage des offiziellen Fedlex-SPARQL-Endpunkts. Er macht konkrete Bundesrechts-Erlasse sichtbar und verlinkt sie auf die passenden Startplugins.
 
 ## Quellenanker
 
