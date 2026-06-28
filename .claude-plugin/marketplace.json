@@ -259,6 +259,15 @@
       }
     },
     {
+      "name": "rechte-finder-schweiz",
+      "source": "./rechte-finder-schweiz",
+      "description": "Rechte-Finder Schweiz: ordnet einfache Nutzerfragen konkreten Schweizer Rechten, Ansprüchen, Rechtsgebieten, Kantonen, Fristen und Startplugins zu.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Schweizer Recht Einfach Maintainers"
+      }
+    },
+    {
       "name": "religions-kirchenrecht-schweiz",
       "source": "./religions-kirchenrecht-schweiz",
       "description": "Religions- und Kirchenrecht Schweiz: Religionsfreiheit, Landeskirchen, öffentlich-rechtliche Anerkennung, Kirchensteuer und kantonales Recht.",

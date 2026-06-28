@@ -6,8 +6,8 @@ Experimentelle Plugin- und Skill-Sammlung für Schweizer Recht. Dieses Repositor
 
 | Kennzahl | Wert |
 | --- | --- |
-| Plugins | 48 |
-| Skills | 48 |
+| Plugins | 49 |
+| Skills | 49 |
 | Version | 0.1.0 |
 | Marketplace | [`.claude-plugin/marketplace.json`](./.claude-plugin/marketplace.json) |
 
@@ -52,6 +52,7 @@ Experimentelle Plugin- und Skill-Sammlung für Schweizer Recht. Dieses Repositor
 | [Obligationenrecht Schweiz](./obligationenrecht-schweiz) | OR-Workflows für Vertrag, Haftung, Verzug, Kauf, Auftrag, Werkvertrag, AGB und Verjährung nach Schweizer Recht. |
 | [Öffentlichkeitsprinzip und Informationsrecht Schweiz](./oeffentlichkeitsprinzip-informationsrecht-schweiz) | Öffentlichkeitsprinzip und Informationsrecht Schweiz: BGÖ, kantonale Öffentlichkeitsgesetze, Akteneinsicht, Amtsgeheimnis, Medienanfragen und Datenschutzschnittstellen. |
 | [Personalrecht öffentlicher Dienst Schweiz](./personalrecht-oeffentlicher-dienst-schweiz) | Personalrecht öffentlicher Dienst Schweiz: Bundespersonal, kantonales Personalrecht, Anstellung, Kündigung, Disziplinarrecht, Lohn und Rechtsschutz. |
+| [Rechte-Finder Schweiz](./rechte-finder-schweiz) | Rechte-Finder Schweiz: ordnet einfache Nutzerfragen konkreten Schweizer Rechten, Ansprüchen, Rechtsgebieten, Kantonen, Fristen und Startplugins zu. |
 | [Religions- und Kirchenrecht Schweiz](./religions-kirchenrecht-schweiz) | Religions- und Kirchenrecht Schweiz: Religionsfreiheit, Landeskirchen, öffentlich-rechtliche Anerkennung, Kirchensteuer und kantonales Recht. |
 | [Schuldbetreibung und Konkurs Schweiz](./schuldbetreibung-konkurs-schweiz) | SchKG-Workflows für Betreibung, Rechtsvorschlag, Rechtsöffnung, Fortsetzung, Konkurs, Arrest, Nachlass und Sanierung. |
 | [Sozialhilferecht Schweiz](./sozialhilferecht-schweiz) | Sozialhilferecht Schweiz: kantonale Sozialhilfe, SKOS, Bedürftigkeit, Auflagen, Rückerstattung, Sanktionen und Rechtsmittel. |
@@ -76,6 +77,7 @@ Experimentelle Plugin- und Skill-Sammlung für Schweizer Recht. Dieses Repositor
 ## Rechtsgebiete und Beispiele
 
 - [Rechtsgebiete-Index](./references/rechtsgebiete-index.md)
+- [Rechte- und Ansprüche-Katalog](./references/rechte-katalog.md)
 - [Einfache Beispiele](./references/einfache-beispiele.md)
 - [SR-Feinraster](./references/sr-feinraster.md)
 - [Grundrechte-Katalog](./references/grundrechte-katalog.md)
@@ -85,6 +87,8 @@ Experimentelle Plugin- und Skill-Sammlung für Schweizer Recht. Dieses Repositor
 ## Abdeckungsraster
 
 Die Sammlung orientiert sich an der Systematischen Rechtssammlung des Bundesrechts und ergänzt sie um kantonale und praktische Rechtsgebiete. Sie bildet alle grossen Rechtsblöcke mit Startplugins und einfachen Beispielen ab, aber jedes Spezialgesetz und jede kantonale Variante muss weiter vertieft werden. Details stehen in [`references/abdeckung.md`](./references/abdeckung.md).
+
+Der Rechte- und Ansprüche-Katalog ist der direkte Einstieg für Fragen wie "Welche Rechte habe ich?". Er enthält konkrete Grundrechte, Verfahrensrechte, zivilrechtliche Ansprüche, Miet-, Arbeits-, Konsumenten-, Steuer-, Sozialversicherungs-, Datenschutz-, Strafprozess- und kantonale Rechte mit einfachem Beispiel und passendem Startplugin.
 
 ## Quellenanker
 

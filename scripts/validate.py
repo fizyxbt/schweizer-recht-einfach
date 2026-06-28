@@ -82,6 +82,7 @@ def validate_coverage_files(errors: list[str]) -> None:
     required = [
         ROOT / "references" / "abdeckung.md",
         ROOT / "references" / "einfache-beispiele.md",
+        ROOT / "references" / "rechte-katalog.md",
         ROOT / "references" / "rechtsgebiete-index.md",
         ROOT / "references" / "sr-feinraster.md",
         ROOT / "references" / "grundrechte-katalog.md",
@@ -94,6 +95,14 @@ def validate_coverage_files(errors: list[str]) -> None:
     canton_files = sorted((ROOT / "references" / "kantone").glob("*.md"))
     if len(canton_files) != 26:
         errors.append(f"references/kantone: expected 26 canton files, found {len(canton_files)}")
+    rights_catalogue = ROOT / "references" / "rechte-katalog.md"
+    if rights_catalogue.exists():
+        rows = [
+            line for line in rights_catalogue.read_text(encoding="utf-8").splitlines()
+            if line.startswith("| ") and not line.startswith("| ---") and "Recht oder Anspruch" not in line
+        ]
+        if len(rows) < 100:
+            errors.append(f"references/rechte-katalog.md: expected at least 100 rights rows, found {len(rows)}")
 
 
 def main() -> int:

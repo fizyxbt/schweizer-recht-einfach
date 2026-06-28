@@ -32,6 +32,7 @@ Dieser Index ist der Arbeitsstand für eine möglichst breite Schweizer-Recht-Ab
 | Obligationenrecht Schweiz | [`Obligationenrecht Schweiz`](../obligationenrecht-schweiz) | Startplugin mit einfachem Beispiel |
 | Öffentlichkeitsprinzip und Informationsrecht Schweiz | [`Öffentlichkeitsprinzip und Informationsrecht Schweiz`](../oeffentlichkeitsprinzip-informationsrecht-schweiz) | Startplugin mit einfachem Beispiel |
 | Personalrecht öffentlicher Dienst Schweiz | [`Personalrecht öffentlicher Dienst Schweiz`](../personalrecht-oeffentlicher-dienst-schweiz) | Startplugin mit einfachem Beispiel |
+| Rechte-Finder Schweiz | [`Rechte-Finder Schweiz`](../rechte-finder-schweiz) | Startplugin mit einfachem Beispiel |
 | Religions- und Kirchenrecht Schweiz | [`Religions- und Kirchenrecht Schweiz`](../religions-kirchenrecht-schweiz) | Startplugin mit einfachem Beispiel |
 | Schuldbetreibung und Konkurs Schweiz | [`Schuldbetreibung und Konkurs Schweiz`](../schuldbetreibung-konkurs-schweiz) | Startplugin mit einfachem Beispiel |
 | Sozialhilferecht Schweiz | [`Sozialhilferecht Schweiz`](../sozialhilferecht-schweiz) | Startplugin mit einfachem Beispiel |

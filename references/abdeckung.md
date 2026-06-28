@@ -25,6 +25,7 @@ Diese Datei dokumentiert die fachliche Abdeckung gegen die grobe SR-Systematik u
 - Banken, Versicherungen, Finanzmarkt und Sanierung: `finanzmarktrecht-schweiz`, `versicherungsrecht-schweiz`, `banken-insolvenz-sanierung-schweiz`.
 - Verkehr, öffentlicher Dienst, Öffentlichkeit und Sozialhilfe: `strassenverkehrsrecht-schweiz`, `personalrecht-oeffentlicher-dienst-schweiz`, `oeffentlichkeitsprinzip-informationsrecht-schweiz`, `sozialhilferecht-schweiz`.
 - Einzelne Grundrechte der Bundesverfassung: [`grundrechte-katalog.md`](./grundrechte-katalog.md).
+- Konkrete Rechte und Ansprüche aus BV, OR, ZGB, ZPO, StPO, SchKG, ATSG, DSG und kantonalem Recht: [`rechte-katalog.md`](./rechte-katalog.md).
 - Kantonale Rechtsbereiche in allen 26 Kantonen: [`kantonale-abdeckung.md`](./kantonale-abdeckung.md).
 - Kantonale Einstiegsdateien je Kanton: [`kantone.md`](./kantone.md).
 - Feineres SR- und Praxisraster: [`sr-feinraster.md`](./sr-feinraster.md).

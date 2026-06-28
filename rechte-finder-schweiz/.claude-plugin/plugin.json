@@ -1,0 +1,16 @@
+{
+  "name": "rechte-finder-schweiz",
+  "version": "0.1.0",
+  "description": "Rechte-Finder Schweiz: ordnet einfache Nutzerfragen konkreten Schweizer Rechten, Ansprüchen, Rechtsgebieten, Kantonen, Fristen und Startplugins zu.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Schweizer Recht Einfach Maintainers"
+  },
+  "homepage": "https://github.com/fizyxbt/schweizer-recht-einfach",
+  "keywords": [
+    "rechte",
+    "ansprueche",
+    "router",
+    "schweizer-recht"
+  ]
+}
