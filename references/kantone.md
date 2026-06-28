@@ -2,6 +2,8 @@
 
 Jede Datei ist ein einfacher Einstieg in kantonales Recht.
 
+Die ausführlicheren Detailrechte pro Kanton stehen zusätzlich unter [`kantonale-detailrechte.md`](./kantonale-detailrechte.md).
+
 | Kanton | Datei |
 | --- | --- |
 | Aargau | [`ag.md`](./kantone/ag.md) |

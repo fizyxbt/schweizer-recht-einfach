@@ -87,6 +87,7 @@ Experimentelle Plugin- und Skill-Sammlung für Schweizer Recht. Dieses Repositor
 - [Grundrechte-Katalog](./references/grundrechte-katalog.md)
 - [Kantonale Abdeckung](./references/kantonale-abdeckung.md)
 - [Kantonale Rechte: einfache Beispiele](./references/kantonale-rechte-einfache-beispiele.md)
+- [Kantonale Detailrechte](./references/kantonale-detailrechte.md)
 - [Kantonsdateien](./references/kantone.md)
 
 ## Abdeckungsraster
@@ -103,6 +104,8 @@ Die Fedlex-Beispieldatei ergänzt jeden dieser SR-Einträge mit einem einfachen 
 
 Die kantonale Rechte-Matrix ergänzt alle 26 Kantone mit einfachen Beispielen zu kantonalen Verfassungsrechten, politischen Rechten, Verwaltungsverfahren, Bau, Polizei, Schule, Steuern, Sozialhilfe, Öffentlichkeit, Datenschutz, Personalrecht und Gesundheitsrecht.
 
+Die kantonalen Detailrechte vertiefen jeden Kanton in einer eigenen Datei mit 60 Rechte-Typen, typischem Behördenweg, typischer kantonaler Quelle und einfachem Beispiel.
+
 ## Quellenanker
 
 Die zentralen Quellen sind in [`references/quellen.md`](./references/quellen.md) gesammelt. Skills sollen diese Datei laden, wenn Quellen, Rechtsstand oder Zitierweise relevant sind.
@@ -118,7 +121,7 @@ Der Validator prüft Marketplace, Plugin-Manifeste, Skill-Frontmatter, lokale Li
 
 ## Nächste Ausbaustufen
 
-1. Pro Kanton eigene Vertiefungsdateien für Bau, Schule, Polizei, Sozialhilfe, Steuern und Verfahren.
+1. Pro Kanton die Detailrechte mit konkreten kantonalen Normartikeln ergänzen.
 2. Pro Spezialgesetz eigene Beispiele und Quellenanker.
 3. Rechtsprechung flächendeckend pro Rechtsgebiet ergänzen.
 4. Testakten mit fiktiven Schweizer Sachverhalten und Rubrics.

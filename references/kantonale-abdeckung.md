@@ -39,4 +39,4 @@ Schweizer Recht ist ohne kantonale Ebene nicht vollständig. Diese Datei hält f
 4. Kantonale Rechtsmittelfrist prüfen.
 5. Bundesrecht und kantonales Recht getrennt darstellen.
 
-Konkrete kantonale Rechte, Ansprüche und Verfahrenspositionen mit einfachen Beispielen stehen in [`kantonale-rechte-einfache-beispiele.md`](./kantonale-rechte-einfache-beispiele.md).
+Konkrete kantonale Rechte, Ansprüche und Verfahrenspositionen mit einfachen Beispielen stehen in [`kantonale-rechte-einfache-beispiele.md`](./kantonale-rechte-einfache-beispiele.md). Vertiefte Kantonsdateien mit Behördenweg und typischer kantonaler Quelle stehen in [`kantonale-detailrechte.md`](./kantonale-detailrechte.md).

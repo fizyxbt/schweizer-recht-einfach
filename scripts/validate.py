@@ -103,6 +103,7 @@ def validate_coverage_files(errors: list[str]) -> None:
         ROOT / "references" / "grundrechte-katalog.md",
         ROOT / "references" / "kantonale-abdeckung.md",
         ROOT / "references" / "kantonale-rechte-einfache-beispiele.md",
+        ROOT / "references" / "kantonale-detailrechte.md",
         ROOT / "references" / "kantone.md",
     ]
     for path in required:
@@ -111,6 +112,29 @@ def validate_coverage_files(errors: list[str]) -> None:
     canton_files = sorted((ROOT / "references" / "kantone").glob("*.md"))
     if len(canton_files) != 26:
         errors.append(f"references/kantone: expected 26 canton files, found {len(canton_files)}")
+    expected_canton_slugs = {
+        "ag", "ai", "ar", "be", "bl", "bs", "fr", "ge", "gl", "gr", "ju", "lu", "ne",
+        "nw", "ow", "sg", "sh", "so", "sz", "tg", "ti", "ur", "vd", "vs", "zg", "zh",
+    }
+    detail_dir = ROOT / "references" / "kantonale-detailrechte"
+    detail_files = sorted(detail_dir.glob("*.md")) if detail_dir.exists() else []
+    found_slugs = {path.stem for path in detail_files}
+    if found_slugs != expected_canton_slugs:
+        missing = sorted(expected_canton_slugs - found_slugs)
+        extra = sorted(found_slugs - expected_canton_slugs)
+        errors.append(
+            "references/kantonale-detailrechte: expected 26 canton detail files"
+            f", missing {', '.join(missing) or '-'}, extra {', '.join(extra) or '-'}"
+        )
+    for path in detail_files:
+        rows = markdown_table_rows(path, "Recht oder Anspruch | Typische kantonale Quelle")
+        if len(rows) < 60:
+            errors.append(f"{rel(path)}: expected at least 60 cantonal detail rows, found {len(rows)}")
+    detail_index = ROOT / "references" / "kantonale-detailrechte.md"
+    if detail_index.exists():
+        rows = markdown_table_rows(detail_index, "Kanton | Kürzel")
+        if len(rows) != 26:
+            errors.append(f"references/kantonale-detailrechte.md: expected 26 index rows, found {len(rows)}")
     cantonal_examples = ROOT / "references" / "kantonale-rechte-einfache-beispiele.md"
     if cantonal_examples.exists():
         rows = markdown_table_rows(cantonal_examples, "Kanton | Kürzel")
