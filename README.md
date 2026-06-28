@@ -77,6 +77,7 @@ Experimentelle Plugin- und Skill-Sammlung für Schweizer Recht. Dieses Repositor
 
 - [Rechtsgebiete-Index](./references/rechtsgebiete-index.md)
 - [Einfache Beispiele](./references/einfache-beispiele.md)
+- [SR-Feinraster](./references/sr-feinraster.md)
 - [Grundrechte-Katalog](./references/grundrechte-katalog.md)
 - [Kantonale Abdeckung](./references/kantonale-abdeckung.md)
 

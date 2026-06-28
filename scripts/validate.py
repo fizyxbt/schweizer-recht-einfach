@@ -83,6 +83,7 @@ def validate_coverage_files(errors: list[str]) -> None:
         ROOT / "references" / "abdeckung.md",
         ROOT / "references" / "einfache-beispiele.md",
         ROOT / "references" / "rechtsgebiete-index.md",
+        ROOT / "references" / "sr-feinraster.md",
         ROOT / "references" / "grundrechte-katalog.md",
         ROOT / "references" / "kantonale-abdeckung.md",
     ]
