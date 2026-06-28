@@ -4,8 +4,8 @@
   "description": "Methodik fuer Schweizer Recht: Normenhierarchie, Auslegung, Amtssprachen, Foederalismus, kantonale Zustaendigkeit und Rechtsmittelstruktur.",
   "license": "Apache-2.0 OR MIT",
   "author": {
-    "name": "Swiss Legal Skills Maintainers"
+    "name": "Schweizer Recht Einfach Maintainers"
   },
-  "homepage": "https://github.com/example/claude-fuer-schweizer-recht",
+  "homepage": "https://github.com/fizyxbt/schweizer-recht-einfach",
   "keywords": ["schweizer-recht", "methodik", "auslegung", "foederalismus"]
 }

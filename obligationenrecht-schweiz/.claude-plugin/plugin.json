@@ -4,8 +4,8 @@
   "description": "OR-Workflows fuer Vertrag, Haftung, Verzug, Kauf, Auftrag, Werkvertrag, AGB und Verjaehrung nach Schweizer Recht.",
   "license": "Apache-2.0 OR MIT",
   "author": {
-    "name": "Swiss Legal Skills Maintainers"
+    "name": "Schweizer Recht Einfach Maintainers"
   },
-  "homepage": "https://github.com/example/claude-fuer-schweizer-recht",
+  "homepage": "https://github.com/fizyxbt/schweizer-recht-einfach",
   "keywords": ["or", "obligationenrecht", "vertrag", "haftung", "schweiz"]
 }

@@ -1,6 +1,6 @@
-# Claude fuer Schweizer Recht
+# Schweizer Recht Einfach
 
-Experimentelle Claude-Plugin- und Skill-Sammlung fuer Schweizer Recht. Dieses Repository ist ein Startgeruest nach dem Muster von `claude-fuer-deutsches-recht`, aber bewusst schlank, validierbar und auf Schweizer Quellenlogik zugeschnitten.
+Experimentelle Plugin- und Skill-Sammlung fuer Schweizer Recht. Dieses Repository ist bewusst schlank, validierbar und auf Schweizer Quellenlogik zugeschnitten.
 
 ## Status
 

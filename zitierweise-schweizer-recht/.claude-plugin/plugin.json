@@ -4,8 +4,8 @@
   "description": "Zitierregeln fuer Schweizer Recht: SR, AS, BBl, BGE, Urteile des Bundesgerichts und kantonale Quellen mit Rechtsstand und Fundstelle.",
   "license": "Apache-2.0 OR MIT",
   "author": {
-    "name": "Swiss Legal Skills Maintainers"
+    "name": "Schweizer Recht Einfach Maintainers"
   },
-  "homepage": "https://github.com/example/claude-fuer-schweizer-recht",
+  "homepage": "https://github.com/fizyxbt/schweizer-recht-einfach",
   "keywords": ["schweizer-recht", "zitierweise", "fedlex", "bge", "bundesgericht"]
 }

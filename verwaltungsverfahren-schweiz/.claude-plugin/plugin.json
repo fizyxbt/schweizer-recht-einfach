@@ -4,8 +4,8 @@
   "description": "Verwaltungsverfahren Schweiz: Verfuegung, rechtliches Gehoer, Einsprache, Beschwerde, VwVG, BGG und kantonale Verfahren.",
   "license": "Apache-2.0 OR MIT",
   "author": {
-    "name": "Swiss Legal Skills Maintainers"
+    "name": "Schweizer Recht Einfach Maintainers"
   },
-  "homepage": "https://github.com/example/claude-fuer-schweizer-recht",
+  "homepage": "https://github.com/fizyxbt/schweizer-recht-einfach",
   "keywords": ["verwaltungsrecht", "verwaltungsverfahren", "vwvg", "bgg", "schweiz"]
 }

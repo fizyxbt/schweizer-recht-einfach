@@ -4,8 +4,8 @@
   "description": "Mietrecht Schweiz fuer Wohn- und Geschaeftsraeume: Mietzins, Nebenkosten, Kuendigung, Erstreckung, Maengel und Schlichtung.",
   "license": "Apache-2.0 OR MIT",
   "author": {
-    "name": "Swiss Legal Skills Maintainers"
+    "name": "Schweizer Recht Einfach Maintainers"
   },
-  "homepage": "https://github.com/example/claude-fuer-schweizer-recht",
+  "homepage": "https://github.com/fizyxbt/schweizer-recht-einfach",
   "keywords": ["mietrecht", "schweiz", "or", "schlichtung"]
 }
