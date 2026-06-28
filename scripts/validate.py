@@ -94,6 +94,7 @@ def validate_coverage_files(errors: list[str]) -> None:
         ROOT / "references" / "abdeckung.md",
         ROOT / "references" / "einfache-beispiele.md",
         ROOT / "references" / "rechte-katalog.md",
+        ROOT / "references" / "bundesrechte-detailmatrix-einfache-beispiele.md",
         ROOT / "references" / "fedlex-sr-index.md",
         ROOT / "references" / "fedlex-sr-einfache-beispiele.md",
         ROOT / "references" / "fedlex-sr-statistik.md",
@@ -140,6 +141,20 @@ def validate_coverage_files(errors: list[str]) -> None:
         ]
         if len(rows) < 100:
             errors.append(f"references/rechte-katalog.md: expected at least 100 rights rows, found {len(rows)}")
+    federal_detail = ROOT / "references" / "bundesrechte-detailmatrix-einfache-beispiele.md"
+    if federal_detail.exists():
+        rows = markdown_table_rows(federal_detail, "Rechtsbereich | Recht oder Anspruch")
+        if len(rows) < 200:
+            errors.append(
+                "references/bundesrechte-detailmatrix-einfache-beispiele.md: "
+                f"expected at least 200 federal detail rows, found {len(rows)}"
+            )
+        areas = {row[0] for row in rows if row}
+        if len(areas) < 20:
+            errors.append(
+                "references/bundesrechte-detailmatrix-einfache-beispiele.md: "
+                f"expected at least 20 legal areas, found {len(areas)}"
+            )
     fedlex_index = ROOT / "references" / "fedlex-sr-index.md"
     fedlex_rows: list[list[str]] = []
     if fedlex_index.exists():
