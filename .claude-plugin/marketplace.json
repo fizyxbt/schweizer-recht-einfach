@@ -126,7 +126,7 @@
     {
       "name": "gesellschaftsrecht-schweiz",
       "source": "./gesellschaftsrecht-schweiz",
-      "description": "Gesellschaftsrecht Schweiz: AG, GmbH, Verein, Stiftung, Handelsregister, Organe, Kapital, Aktionaere und Corporate Governance.",
+      "description": "Gesellschaftsrecht Schweiz: AG, GmbH, Verein, Stiftung, Handelsregister, Organe, Kapital, Aktionäre und Corporate Governance.",
       "version": "0.1.0",
       "author": {
         "name": "Schweizer Recht Einfach Maintainers"
@@ -207,7 +207,7 @@
     {
       "name": "mietrecht-schweiz",
       "source": "./mietrecht-schweiz",
-      "description": "Mietrecht Schweiz für Wohn- und Geschäftsraeume: Mietzins, Nebenkosten, Kündigung, Erstreckung, Mängel und Schlichtung.",
+      "description": "Mietrecht Schweiz für Wohn- und Geschäftsräume: Mietzins, Nebenkosten, Kündigung, Erstreckung, Mängel und Schlichtung.",
       "version": "0.1.0",
       "author": {
         "name": "Schweizer Recht Einfach Maintainers"

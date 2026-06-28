@@ -37,7 +37,7 @@ Experimentelle Plugin- und Skill-Sammlung für Schweizer Recht. Dieses Repositor
 | [Familien- und Erbrecht Schweiz](./familien-erbrecht-schweiz) | Familien- und Erbrecht Schweiz: Ehe, Scheidung, Kindesrecht, Unterhalt, Vorsorgeausgleich, Testament, Erbvertrag, Pflichtteile und Nachlass. |
 | [Finanzmarktrecht Schweiz](./finanzmarktrecht-schweiz) | Finanzmarktrecht Schweiz: FINMA, Banken, Versicherungen, Kollektivanlagen, Geldwäscherei, FinSA, FinIA, FinfraG und Aufsicht. |
 | [Gemeinde- und Polizeirecht Schweiz](./gemeinde-polizeirecht-schweiz) | Gemeinde- und Polizeirecht Schweiz: kommunale Reglemente, Polizeibewilligungen, Veranstaltungen, Sicherheit, Gebühren und kantonale Aufsicht. |
-| [Gesellschaftsrecht Schweiz](./gesellschaftsrecht-schweiz) | Gesellschaftsrecht Schweiz: AG, GmbH, Verein, Stiftung, Handelsregister, Organe, Kapital, Aktionaere und Corporate Governance. |
+| [Gesellschaftsrecht Schweiz](./gesellschaftsrecht-schweiz) | Gesellschaftsrecht Schweiz: AG, GmbH, Verein, Stiftung, Handelsregister, Organe, Kapital, Aktionäre und Corporate Governance. |
 | [Gesundheitsrecht Schweiz](./gesundheitsrecht-schweiz) | Gesundheitsrecht Schweiz: Heilmittel, Krankenversicherung, Medizinalberufe, Spitäler, Tarife, Patientendaten, Public Health und Aufsicht. |
 | [Grundrechte und Menschenrechte Schweiz](./grundrechte-menschenrechte-schweiz) | Grundrechte und Menschenrechte Schweiz: BV, EMRK, UNO-Pakte, Verhältnismässigkeit, Diskriminierung, Verfahrensrechte und Rechtsmittel. |
 | [Immaterialgüterrecht Schweiz](./immaterialgueterrecht-schweiz) | Immaterialgüterrecht Schweiz: Marken, Urheberrecht, Patente, Designs, Lauterkeit, Lizenzverträge, IGE-Verfahren und Durchsetzung. |
@@ -46,7 +46,7 @@ Experimentelle Plugin- und Skill-Sammlung für Schweizer Recht. Dieses Repositor
 | [Konsumentenrecht Schweiz](./konsumentenrecht-schweiz) | Konsumentenrecht Schweiz: Vertragsabschluss, Widerrufsschnittstellen, Preisbekanntgabe, AGB, Lauterkeit, Produktsicherheit und E-Commerce. |
 | [Landesverteidigung und Sicherheit Schweiz](./landesverteidigung-sicherheit-schweiz) | Landesverteidigung und Sicherheit Schweiz: Militärdienst, Zivildienst, Bevölkerungsschutz, Nachrichtendienst, Waffenrecht und Sicherheitsrecht. |
 | [Methodik Schweizer Recht](./methodik-schweizer-recht) | Methodik für Schweizer Recht: Normenhierarchie, Auslegung, Amtssprachen, Föderalismus, kantonale Zuständigkeit und Rechtsmittelstruktur. |
-| [Mietrecht Schweiz](./mietrecht-schweiz) | Mietrecht Schweiz für Wohn- und Geschäftsraeume: Mietzins, Nebenkosten, Kündigung, Erstreckung, Mängel und Schlichtung. |
+| [Mietrecht Schweiz](./mietrecht-schweiz) | Mietrecht Schweiz für Wohn- und Geschäftsräume: Mietzins, Nebenkosten, Kündigung, Erstreckung, Mängel und Schlichtung. |
 | [Migrationsrecht Schweiz](./migrationsrecht-schweiz) | Migrations- und Asylrecht Schweiz: AIG, AsylG, Aufenthalt, Familiennachzug, Wegweisung, Härtefall, Bürgerrecht und Rechtsmittel. |
 | [Notariats- und Registerrecht Schweiz](./notariats-registerrecht-schweiz) | Notariats- und Registerrecht Schweiz: öffentliche Beurkundung, Grundbuch, Handelsregister, Zivilstandsregister, Beglaubigung und kantonale Zuständigkeit. |
 | [Obligationenrecht Schweiz](./obligationenrecht-schweiz) | OR-Workflows für Vertrag, Haftung, Verzug, Kauf, Auftrag, Werkvertrag, AGB und Verjährung nach Schweizer Recht. |
@@ -77,6 +77,8 @@ Experimentelle Plugin- und Skill-Sammlung für Schweizer Recht. Dieses Repositor
 
 - [Rechtsgebiete-Index](./references/rechtsgebiete-index.md)
 - [Einfache Beispiele](./references/einfache-beispiele.md)
+- [Grundrechte-Katalog](./references/grundrechte-katalog.md)
+- [Kantonale Abdeckung](./references/kantonale-abdeckung.md)
 
 ## Abdeckungsraster
 
@@ -97,8 +99,7 @@ Der Validator prüft Marketplace, Plugin-Manifeste, Skill-Frontmatter, lokale Li
 
 ## Nächste Ausbaustufen
 
-1. Strafrecht und Strafprozessrecht Schweiz.
-2. Datenschutzrecht DSG/nDSG und KI-Governance.
-3. Zivilprozessrecht mit kantonaler Schlichtungslogik.
-4. Steuerrecht Bund/Kantone.
-5. Testakten mit fiktiven Schweizer Sachverhalten und Rubrics.
+1. Pro Kanton eigene Vertiefungsdateien für Bau, Schule, Polizei, Sozialhilfe, Steuern und Verfahren.
+2. Pro Spezialgesetz eigene Beispiele und Quellenanker.
+3. Rechtsprechung flächendeckend pro Rechtsgebiet ergänzen.
+4. Testakten mit fiktiven Schweizer Sachverhalten und Rubrics.

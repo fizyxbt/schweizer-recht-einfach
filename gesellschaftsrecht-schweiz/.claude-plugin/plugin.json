@@ -1,7 +1,7 @@
 {
   "name": "gesellschaftsrecht-schweiz",
   "version": "0.1.0",
-  "description": "Gesellschaftsrecht Schweiz: AG, GmbH, Verein, Stiftung, Handelsregister, Organe, Kapital, Aktionaere und Corporate Governance.",
+  "description": "Gesellschaftsrecht Schweiz: AG, GmbH, Verein, Stiftung, Handelsregister, Organe, Kapital, Aktionäre und Corporate Governance.",
   "license": "Apache-2.0 OR MIT",
   "author": {
     "name": "Schweizer Recht Einfach Maintainers"

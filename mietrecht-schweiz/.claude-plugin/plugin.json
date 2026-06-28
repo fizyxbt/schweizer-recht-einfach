@@ -1,7 +1,7 @@
 {
   "name": "mietrecht-schweiz",
   "version": "0.1.0",
-  "description": "Mietrecht Schweiz für Wohn- und Geschäftsraeume: Mietzins, Nebenkosten, Kündigung, Erstreckung, Mängel und Schlichtung.",
+  "description": "Mietrecht Schweiz für Wohn- und Geschäftsräume: Mietzins, Nebenkosten, Kündigung, Erstreckung, Mängel und Schlichtung.",
   "license": "Apache-2.0 OR MIT",
   "author": {
     "name": "Schweizer Recht Einfach Maintainers"

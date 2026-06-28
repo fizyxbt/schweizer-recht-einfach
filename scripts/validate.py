@@ -78,6 +78,19 @@ def validate_readme_counts(plugin_count: int, skill_count: int, errors: list[str
         errors.append(f"README.md: Skills count is {found.get('Skills')} but actual is {skill_count}")
 
 
+def validate_coverage_files(errors: list[str]) -> None:
+    required = [
+        ROOT / "references" / "abdeckung.md",
+        ROOT / "references" / "einfache-beispiele.md",
+        ROOT / "references" / "rechtsgebiete-index.md",
+        ROOT / "references" / "grundrechte-katalog.md",
+        ROOT / "references" / "kantonale-abdeckung.md",
+    ]
+    for path in required:
+        if not path.exists():
+            errors.append(f"{rel(path)}: required coverage file missing")
+
+
 def main() -> int:
     errors: list[str] = []
     marketplace = load_json(MARKETPLACE, errors)
@@ -114,9 +127,13 @@ def main() -> int:
             fm = parse_frontmatter(skill, errors)
             if fm.get("name") != skill.parent.name:
                 errors.append(f"{rel(skill)}: name must match skill folder")
+        example = root / "examples" / "beispiel-einfach.md"
+        if not example.exists():
+            errors.append(f"{plugin['name']}: missing examples/beispiel-einfach.md")
 
     validate_links(errors)
     validate_readme_counts(len(plugins), skill_count, errors)
+    validate_coverage_files(errors)
 
     if errors:
         print(f"validate failed with {len(errors)} issue(s)", file=sys.stderr)

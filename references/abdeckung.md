@@ -24,6 +24,8 @@ Diese Datei dokumentiert die fachliche Abdeckung gegen die grobe SR-Systematik u
 - Konsumenten, E-Commerce, Wettbewerb und IP: `konsumentenrecht-schweiz`, `wettbewerbs-kartellrecht-schweiz`, `immaterialgueterrecht-schweiz`.
 - Banken, Versicherungen, Finanzmarkt und Sanierung: `finanzmarktrecht-schweiz`, `versicherungsrecht-schweiz`, `banken-insolvenz-sanierung-schweiz`.
 - Verkehr, öffentlicher Dienst, Öffentlichkeit und Sozialhilfe: `strassenverkehrsrecht-schweiz`, `personalrecht-oeffentlicher-dienst-schweiz`, `oeffentlichkeitsprinzip-informationsrecht-schweiz`, `sozialhilferecht-schweiz`.
+- Einzelne Grundrechte der Bundesverfassung: [`grundrechte-katalog.md`](./grundrechte-katalog.md).
+- Kantonale Rechtsbereiche in allen 26 Kantonen: [`kantonale-abdeckung.md`](./kantonale-abdeckung.md).
 
 ## Noch offen für echte Vollständigkeit
 
